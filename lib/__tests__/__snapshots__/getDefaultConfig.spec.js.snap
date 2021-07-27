@@ -3,6 +3,7 @@
 exports[`getDefaultConfig should retrieve default configuration 1`] = `
 Object {
   "indent": 2,
+  "relativePath": true,
   "reportFile": "test-report.xml",
   "reportPath": "/",
   "sonar56x": false,
