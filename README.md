@@ -53,6 +53,7 @@ Create a `jestSonar` entry like this:
 ```
 
 You can customize the following options:
+- `relativePath` This will specify if path for test should be converted to relative in xml report.
 - `reportPath` This will specify the path to put the report in.
 - `reportFile` This will specify the file name of the report.
 - `indent` This will specify the indentation to format the report.
@@ -62,7 +63,8 @@ You can customize the following options:
   "jestSonar": {
     "reportPath": "reports",
     "reportFile": "test-reporter.xml",
-    "indent": 4
+    "indent": 4,
+    "relativePath": false
   }
 }
 ```
