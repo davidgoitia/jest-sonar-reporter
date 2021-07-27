@@ -1,6 +1,6 @@
 {
-  "name": "jest-sonar-reporter",
-  "version": "2.0.0",
+  "name": "sonar-jest",
+  "version": "2.0.1",
   "description": "A Sonar test reporter for Jest.",
   "keywords": [
     "sonar",
@@ -21,14 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3dmind/jest-sonar-reporter.git"
+    "url": "git+https://github.com/davidgoitia/jest-sonar-reporter.git"
   },
   "author": "Christian Wlatschiha <c.wlatschiha@gmail.com>",
+  "contributors": [ 
+    "David Goitia <david@goitia.es>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/3dmind/jest-sonar-reporter/issues"
+    "url": "https://github.com/davidgoitia/jest-sonar-reporter/issues"
   },
-  "homepage": "https://github.com/3dmind/jest-sonar-reporter#readme",
+  "homepage": "https://github.com/davidgoitia/jest-sonar-reporter#readme",
   "engines": {
     "node": ">=8.0.0"
   },
